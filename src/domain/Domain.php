@@ -2,6 +2,8 @@
 
 namespace yii2module\encrypt\domain;
 
+use yii2lab\app\domain\helpers\EnvService;
+
 /**
  * Class Domain
  * 
@@ -15,7 +17,7 @@ class Domain extends \yii2lab\domain\Domain {
 		return [
 			'services' => [
 				'coder' => [
-					'profiles' => env('encrypt.profiles'),
+					'profiles' => EnvService::get('encrypt.profiles'),
 				],
 			],
 		];
