@@ -5,7 +5,7 @@ namespace yii2module\encrypt\domain\services;
 use nickcv\encrypter\components\Encrypter;
 use yii\base\InvalidConfigException;
 use yii\di\ServiceLocator;
-use yii2lab\domain\services\base\BaseService;
+use yii2rails\domain\services\base\BaseService;
 
 class CoderService extends BaseService {
 	

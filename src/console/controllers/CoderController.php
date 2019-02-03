@@ -3,9 +3,9 @@
 namespace yii2module\encrypt\console\controllers;
 
 use Yii;
-use yii2lab\extension\console\helpers\input\Enter;
-use yii2lab\extension\console\base\Controller;
-use yii2lab\extension\console\helpers\Output;
+use yii2rails\extension\console\helpers\input\Enter;
+use yii2rails\extension\console\base\Controller;
+use yii2rails\extension\console\helpers\Output;
 
 /**
  * Encryption and decryption of data

@@ -2,7 +2,7 @@
 
 namespace yii2module\encrypt\domain;
 
-use yii2lab\app\domain\helpers\EnvService;
+use yii2rails\app\domain\helpers\EnvService;
 
 /**
  * Class Domain
@@ -11,7 +11,7 @@ use yii2lab\app\domain\helpers\EnvService;
  *
  * @property \yii2module\encrypt\domain\services\CoderService $coder
  */
-class Domain extends \yii2lab\domain\Domain {
+class Domain extends \yii2rails\domain\Domain {
 
 	public function config() {
 		return [
