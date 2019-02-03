@@ -16,7 +16,9 @@
 	"autoload": {
 		"psr-4": {
 			"yii2module\\encrypt\\": "src",
-			"yii2module\\encrypt\\tests\\": "tests"
+			"yii2module\\encrypt\\tests\\": "tests",
+			"yii2bundle\\encrypt\\": "src",
+			"yii2bundle\\encrypt\\tests\\": "tests"
 		}
 	},
 	"require": {
