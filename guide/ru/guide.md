@@ -5,7 +5,7 @@
 
 ```php
 $text = 'custom text';
-$encoded = Yii::$app->encrypt->coder->encode($text);
+$encoded = App::$domain->encrypt->coder->encode($text);
 ```
 
 Получим что-то вроде этого:
@@ -16,7 +16,7 @@ $encoded = Yii::$app->encrypt->coder->encode($text);
 
 ```php
 $encoded = 'aONuANgQUdKP5naf9R60bw==';
-$decoded = Yii::$app->encrypt->coder->decode($encoded);
+$decoded = App::$domain->encrypt->coder->decode($encoded);
 ```
 
 ## Профиль
@@ -31,5 +31,5 @@ $decoded = Yii::$app->encrypt->coder->decode($encoded);
 
 ```php
 $text = 'custom text';
-$encoded = Yii::$app->encrypt->coder->encode($text, 'custom_profile');
+$encoded = App::$domain->encrypt->coder->encode($text, 'custom_profile');
 ```
